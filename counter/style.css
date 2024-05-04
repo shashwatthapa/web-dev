@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width:100vw;
+	height: 100vh;
+	background-color: powderblue;
+	box-sizing: border-box;
+}
+.number{
+	margin-left:50vw;
+	font-size:5rem;
+	line-height: 2;
+}
+.buttons{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+button{
+	margin-left:5%;
+	height: 30px;
+	width: 100px;
+}
+#sub{
+	background-color: orange;
+	color: white;
+	border:1px solid orange;
+}
+#res{
+	background-color: red;
+	color: white;
+	border: 1px solid red;
+}
+#inc{
+	background-color: green;
+	color: white;
+	border: 1px solid green;
+}
+#sub:hover,#inc:hover,#res:hover{
+    background-color: purple;
+    border:1px solid purple;
+}
+p{
+	text-align: center;
+	font-size:50px;
+	padding-top:5%;
+	font-weight: bold;
+}
