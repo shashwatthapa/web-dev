@@ -1,0 +1,28 @@
+.container{
+	background-color: navy;
+	height: 52vh;
+	width: 40vw;
+	margin-left:25%;
+	margin-top:7%;
+	padding-top: 1px;
+}
+p{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size:1.5rem;
+}
+h3{
+	color: white;
+	text-align: center;
+	font-size: 3rem;
+}
+button{
+	margin-left:40%;
+	height: 30px;
+	width: 100px;
+}
+#text{
+	font-size: 2rem;
+	
+}
