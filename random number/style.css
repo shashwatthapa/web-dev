@@ -1,0 +1,24 @@
+.container{
+	background-color: navy;
+	height: 43vh;
+	width: 40vw;
+	margin-left:25%;
+	margin-top:10%;
+	padding-top: 1px;
+}
+p{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size:1.5rem;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-size: 3.7rem;
+}
+button{
+	margin-left:40%;
+	height: 30px;
+	width: 100px;
+}
