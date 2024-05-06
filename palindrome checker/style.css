@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	background-image: linear-gradient(#e948f7,#dc38eb);
+	height: 100vh;
+	width: 100vw;
+}
+.box{
+	background-color: white;
+	width: 40vw;
+	height: 30vh;
+	position: relative;
+	left:31%;
+	top:10%;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+h1{
+	text-align: center;
+	color: white;
+	line-height: 3;  
+}
+input{
+	position: relative;
+	top:50%;
+	left:5%;
+	outline: 0;
+	border-width: 0 0 2px; 
+    border-color: purple;
+    width: 20vw; 
+}
+button{
+	position: relative;
+	top:53%;
+	left:10%;
+	width: 100px;
+	height: 25px;
+	border-radius: 20px;
+	border:1px solid purple;
+	background-color: purple;
+	color: white;
+}
+button:hover{
+	background-color: orange;
+	border:1px solid orange;
+}
+p{
+	margin-top:20%;
+	margin-left:5%;
+	font-weight: bold;
+	font-size: 1.5rem;
+	
+}
