@@ -1,0 +1,57 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	background-color: #2c78f2;
+	height: 100vh;
+	width: 100vw;
+}
+.box{
+	background-color: skyblue;
+	height: 45vh;
+	width: 40vw;
+	position: relative;
+	left:25%;
+	top:20%;
+}
+h1{
+	text-align: center;
+	font-family: sans-serif;
+}
+input{
+	position: relative;
+	left:25%;
+	top:15%;
+	width: 20vw;
+	height: 5vh;
+}
+button{
+	position: relative;
+	top:40%;
+	right: 7%;
+	width: 90px;
+	height: 25px;
+	background-color: black;
+	color: white;
+	border:1px solid black;
+	border-radius: 20px;
+}
+button:hover{
+	background-color: orange;
+	border:1px solid orange;
+}
+.show{
+	background-color: #333;
+	width: 40vw;
+	height: 7vh;
+	position: relative;
+	top:59.1%;
+}
+p{
+	color: white;
+	text-align: center;
+	position: relative;
+	top:15%;
+	font-size: 1.3rem;
+}
