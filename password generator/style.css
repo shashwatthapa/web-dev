@@ -1,0 +1,38 @@
+*{
+	padding:0;
+	margin:0;
+}
+.container{
+	height: 100vh;
+	width: 100vw;
+	background-color:black;
+}
+.box{
+	background-color:white;
+	height: 70vh;
+	width: 30vw;
+	position: relative;
+	top:8%;
+	left:35%;
+	box-sizing: border-box;
+	padding: 20px;
+}
+input{
+	width: 20vw;
+	margin-top: 4%;
+	height: 5vh;
+	margin-left: 3%;
+}
+#length{
+	position: relative;
+	bottom: 15px;
+}
+
+input[type="checkbox"]{
+	height: 2.3vh;
+	position: relative;
+	right: 10vw;
+}
+input[type="checkbox"] label{
+	margin-right: 40px;
+}
