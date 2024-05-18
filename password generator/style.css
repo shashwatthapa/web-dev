@@ -33,6 +33,23 @@ input[type="checkbox"]{
 	position: relative;
 	right: 10vw;
 }
-input[type="checkbox"] label{
-	margin-right: 40px;
+label[for=uppercase],label[for="lowercase"],label[for="number"],label[for="symbols"],label[for="duplicate"]{
+	position: relative;
+	right: 18vw;
+	bottom: 1vh;
+}
+button{
+	position: relative;
+	left:37%;
+	top:4vh;
+	width:7vw;
+	height: 4vh;
+	background-color: green;
+	color: white;
+	border:1px solid green;
+
+}
+button:hover{
+	background-color:orange;
+	border:1px solid orange;
 }
