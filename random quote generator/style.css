@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	height: 100vh;
+	width:100vw;
+	background-image:linear-gradient(to left,#437fbf,#3a8be0) 
+}
+.box{
+	height: 35vh;
+	width: 35vw;
+	background-color: white;
+	position: relative;
+	left:32%;
+	top:15%;
+}
+h1{
+	text-align: center;
+	font-family: sans-serif;
+}
+#total{
+	text-align: center;
+	font-size: 1rem;
+	position: relative;
+	top:15%;
+	font-weight: bold;
+	margin-left:15%;
+	padding-left: 20px;
+	text-align: justify-all;
+
+}
+.quotation{
+	font-size: 1rem;
+}
+.author{
+	
+	position: relative;
+	top:20%;
+	left:45%;
+}
+button{
+	position: relative;
+	left:45%;
+	top:5%;
+	width:7%;
+	height: 5%;
+	border:1px solid #437fbf;
+	background-color: #437fbf;
+	color: white;
+	border-radius: 20px;
+}
+button:hover{
+	background-color: orange;
+	border:1px solid orange;
+}
