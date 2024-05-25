@@ -1,0 +1,74 @@
+*{
+	margin:0;
+	padding:0;
+}
+.container{
+	background-color: #c994ff;
+	width: 100vw;
+	height: 100vh;
+}
+.box{
+	background-color: white;
+	width: 30vw;
+	height: 70vh;
+	position: relative;
+	left:30%;
+	top:10%;
+}
+img{
+	height: 20%;
+	position: relative;
+	left:40%;
+	top:17%;
+
+}
+h1{
+	display: inline;
+	position: relative;
+	top:25%;
+}
+select{
+	position: relative;
+	height:4vh;
+	width: 7vw;
+	background-color:#c994ff;
+	color:white;
+	border: 1px solid white; 
+}
+#one{
+	position: relative;
+	left: 0%;
+	top:42%;
+}
+#two{
+	position: relative;
+	left:25%;
+	top:36%;
+}
+button{
+	position: relative;
+	top:50%;
+	width: 25vw;
+	left: 10%;
+	height: 5vh;
+	background-color: #c994ff;
+	color: white;
+	border:1px solid #c994ff;
+
+}
+p{
+	position: relative;
+	top:30%;
+	left:10%;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+input{
+	position: relative;
+	top:25%;
+	left:30%;
+	outline: 0;
+	border-width: 0 0 2px;
+	border-color: #c994ff;
+	width: 20vw;
+}
