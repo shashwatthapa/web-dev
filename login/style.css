@@ -1,0 +1,98 @@
+body
+{
+	background-image: linear-gradient(to LEFT, #c181d6 30%,#037ffc 70% );
+}
+.container
+{
+	 box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	 height: 600px;
+	 width: 450px;
+	 margin-left:450px;
+	 margin-top:80px;
+	 background-color:white;
+	 border-radius:20px;
+
+}
+.container h1 
+{
+	text-align: center;
+	padding:35px;
+	font-family: sans-serif;
+}
+
+.container form #username
+{
+	width:350px;
+	height:40px;
+	margin-left: 30px;
+	margin-top:10px;
+	border:1px solid white;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+ 
+}
+.container form label
+{
+	margin-left:30px;
+	font-size:20px;
+
+}
+.container form #password
+{
+	width:350px;
+	height:40px;
+	margin-left: 30px;
+	margin-top:10px;
+	border:1px solid white;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+}
+#forgot
+{
+	float:right;
+	margin:30px;
+	color:#037ffc;
+}
+button
+{
+	width:320px;
+	height:40px;
+	margin-left: 50px;
+	font-size: 25px;
+	border:1px solid white;
+	background-image: linear-gradient(to LEFT, #c181d6 30%,#037ffc 70% );
+	color:white;
+	border-radius: 20px;
+}
+.container p 
+{
+	text-align: center;
+	margin-top:30px;
+	color:grey;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.social-media
+{
+	margin-left: 100px;
+}
